@@ -1,0 +1,27 @@
+{
+  "name": "setup-vlang",
+  "version": "0.0.1",
+  "description": "This action compiles a V project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GZGavinZhao/setup-vlang.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GZGavinZhao/setup-vlang/issues"
+  },
+  "homepage": "https://github.com/GZGavinZhao/setup-vlang#readme",
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "@actions/github": "^5.0.0",
+    "download": "^8.0.0",
+    "follow-redirects": "^1.14.1",
+    "yauzl": "^2.10.0"
+  }
+}
