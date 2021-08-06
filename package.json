@@ -2,8 +2,9 @@
   "name": "setup-vlang",
   "version": "1.0.0",
   "description": "A simple command-line application.",
-  "main": "bin/main.dart.js",
+  "main": "bin/main.js",
   "scripts": {
+    "build": "dart compile js -o bin/main.js bin/main.dart",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
